@@ -1,0 +1,50 @@
+{
+    "name":  "screen-ask",
+    "logo":  "👁️",
+    "exe":  "ScreenAsk.exe",
+    "desc":  "Free, open-source ask-your-screen tool for Windows — capture a region, OCR and local LLM answer offline. 100 MB portable, no cloud, MIT.",
+    "topics":  [
+                   "screen-ocr",
+                   "screenshot-qa",
+                   "local-ai",
+                   "llm",
+                   "text-extraction",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "hotkey-capture",
+                   "offline",
+                   "privacy",
+                   "region-select",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Hotkey region capture** — press the shortcut, drag a box, the region becomes the question context",
+                     "✅ **Built-in OCR** — text pulled from the shot with the Windows OCR engine or a bundled ONNX model",
+                     "✅ **Local LLM answers** — connects to any llama.cpp server on localhost and asks about the captured content",
+                     "✅ **Ask modes** — explain, translate, summarize or extract as a table with one dropdown",
+                     "✅ **Answer clipboard flow** — the reply lands on the clipboard with enter, no window juggling",
+                     "✅ **History strip** — last twenty captures with their questions, reopenable from the tray",
+                     "✅ **100 MB self-contained exe** — runtime bundled, portable, offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **screen-ask** | PowerToys Text Extractor | Cloud screenshot AI | Snipping Tool OCR |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free, OSS | Paid | Free built-in |",
+                    "| Open source | **Yes** | Yes | No | No |",
+                    "| Asks questions about the screen | **Yes** | No | Yes | No |",
+                    "| Screenshots stay local | **Yes** | Yes | No upload | Yes",
+                    "| Local LLM backend | **Yes** | No | Impossible | No",
+                    "| Portable, no install | **Yes, 100 MB** | Installer | Browser | Built-in"
+                ],
+    "faqQ":  "how to ask AI about what is on my screen without screenshots going to a cloud?",
+    "faqA":  "Cloud screenshot assistants upload whatever is on screen, which is a non-starter for documents and code under NDA. screen-ask OCRs a selected region locally and sends it to a local LLM server you run. It is a 100 MB portable exe, MIT, and works offline by design.",
+    "s1":  "Dark overlay mid-capture (#121417, cyan #22D3EE): selection rectangle drawn over an error dialog, OCR preview chip below reading 38 words recognized.",
+    "s2":  "Answer card floating near the tray: question text explain, answer paragraph streaming at 40 tokens per second, copy button highlighted.",
+    "s3":  "History strip: twenty thumbnails with question labels, mode badges for translate and summarize, tray icon with badge count."
+}
